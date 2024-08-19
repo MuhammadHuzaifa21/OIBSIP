@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">    
+</head>
+<body>
+    <div class="container">
+      <h1>Temperature Converter</h1> <br>
+      
+      <form>
+        <div class="dropdown-container">
+            <select id="convertFrom" name="convertFrom" class="dropdown">
+              <option value="" disabled selected>Convert From</option>
+              <option value="fahrenheit">Fahrenheit</option>
+              <option value="celsius">Celsius</option>
+              <option value="kelvin">Kelvin</option>
+            </select> <br><br>
+            
+            <input type="number" id="degree" name="degree" placeholder="Enter Degree" required><br><br>
+
+            <select id="convertTo" name="convertTo" class="dropdown">
+                <option value="" disabled selected>Convert To</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="celsius">Celsius</option>
+                <option value="kelvin">Kelvin</option>
+            </select> <br><br>
+
+            <p>Converted Temperature: <span id="result"></span></p> <br> <br>
+
+            <button type="submit" class="btn" onclick="convertTemperature()">Convert</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
