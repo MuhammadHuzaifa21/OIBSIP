@@ -10,7 +10,6 @@ This repository contains a series of tasks completed as part of the OIBSIP inter
 - [Usage](#usage)
 - [Technologies](#technologies)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -56,12 +55,6 @@ A simple JavaScript-based tool that converts temperatures between Fahrenheit, Ce
     ```
 
 2. Navigate to the respective project folder and open the `index.html` file in a browser.
-
-3. Optionally, set up a local web server for better development experience:
-    ```bash
-    # For example, using Python's built-in server
-    python -m http.server
-    ```
 
 ## Usage
 
